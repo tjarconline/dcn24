@@ -1,0 +1,11 @@
+<script>
+var timetable = new Timetable();
+timetable.setScope(17, 5); // optional, only whole hours between 0 and 23
+timetable.addLocations(['Buitenprogrammering' ,'⚡ Energiehuis' ,'⚡ Popcentrale' ,'⚡ Bibelot Power Stage' ,'⚡ Bibelot Brandstof' ,'⚡ Bibelot Toilet' ,'⚡ Bibelot Terras' ,'⚡ Bibelot Bezemkast' ,'⚡ ToBe 1e etage' ,'⚡ ToBe Khotinsky' ,'⚡ ToBe Foyer' ,'⚡ ToBe Pop-up' ,'⚡ ToBe Studio 009' ,'⚡ ToBe Studio 007' ,'⚡ ToBe Studio' ,'⚡ Kunstmin Ketel 1' ,'Kunstmin Terras' ,'Dordrechts Museum Vaste Collectie' ,'Dordrechts Museum Atelier' ,'Dordrechts Museum Entreehal' ,'Dordrechts Museum Art & Dining' ,'Dordrechts Museum Wijnbar' ,'Dordrechts Museum Tuin' ,'Kunstkerk' ,'De Witt' ,'De Witt Filmlounge' ,'De Witt Terras' ,'Hof van NL Museum' ,'Hof van NL Vrijplaats' ,'Hof van NL Vrijheid' ,'Hof van NL Statenzaal' ,'Hof van NL Plein' ,'Ontdek Dordrecht' ,'DOOR Podium' ,'DOOR Atrium' ,'DOOR Trappenhuis' ,'Pictura' ,'Weeshuistheater' ,'Bibliotheek Blauwe kamer' ,'Bibliotheek Jeugdplein' ,'Bibliotheek Maakplaats' ,'Bibliotheek Kinderhoek' ,'Bibliotheek Ontwikkelplein' ,'Bibliotheek Buitenplaats' ,'Bibliotheek Café' ,'Onderwijsmuseum BG' ,'Onderwijsmuseum Edu' ,'Onderwijsmuseum Café' ,'Onderwijsmuseum -1' ,'Muziekpodium DJS' ,'Rebel Rebel' ,'Grote Kerk' ,'Huis Van Gijn Zaal' ,'Huis Van Gijn Speelgoedzolder' ,'Huis Van Gijn Keuken' ,'Huis Van Gijn Velouteslaapkamer' ,'Huis Van Gijn Groene slaapkamer' ,'Huis Van Gijn Museumcafe' ,'WG Galerie',])
+
+
+
+
+var renderer = new Timetable.Renderer(timetable);
+renderer.draw('.timetable'); // any css selector
+</script>
