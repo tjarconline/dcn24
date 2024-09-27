@@ -1480,14 +1480,6 @@
 		l14,13.5v-1.5l-12.8-12.4l8.8-9.6l4-3.8v-1.5l-4.8,4.6L888.4,525z M577.9,1012.1l-24.3-4.3l-0.2,1.1l24.2,4.3l3.7,1.9l0.5-1l-3.8-2
 		C578,1012.1,578,1012.1,577.9,1012.1z M769.4,1054.9L769.4,1054.9l-1.5-0.3l0.1,0.1L769.4,1054.9z"/>
 </g>
-<g id="overlay">
-	
-		<radialGradient id="SVGID_1_" cx="526.5157" cy="510.0367" r="1013.3872" fx="416.2563" fy="495.7332" gradientTransform="matrix(0.8693 0 0 0.8693 -42.942 30.6749)" gradientUnits="userSpaceOnUse">
-		<stop  offset="0" style="stop-color:#2A354C;stop-opacity:0"/>
-		<stop  offset="0.6447" style="stop-color:#2A354C"/>
-	</radialGradient>
-	<rect x="-386.5" y="-351.9" class="st6" width="1598.1" height="1911.2"/>
-</g>
 <g id="locaties">
     <a xlink:href="https://www.dordtsecultuurnacht.nl/loc/bibliotheek">
 	<g id="bibliotheek">
